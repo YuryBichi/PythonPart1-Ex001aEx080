@@ -1,0 +1,6 @@
+n = int(input('Numero de 0 a 9999: '))
+num = str(n)
+print('A unidade é {} !'.format(num[3]))
+print('A dezena é {} !'.format(num[2]))
+print('A centena é {} !'.format(num[1]))
+print('A milhar é {} !'.format(num[0]))
